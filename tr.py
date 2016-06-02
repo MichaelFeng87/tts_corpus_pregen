@@ -125,8 +125,15 @@ def gen(fn, fno):
         #unicode end
         cc = [c.encode("utf-8") for c in ucc]
         
+        
         for l in cc:
             print l
+        
+        print 'Total=%d'%len(cc)
+        
+        with open(fno, 'w') as fpo:
+            for l in cc:
+                fpo.write(l+'\n')
             
         
     
