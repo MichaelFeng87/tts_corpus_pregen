@@ -41,6 +41,25 @@ def remove_white(ucc):
         if flag:
             rr.append(l)
     return rr
+
+def split_tab(ucc):
+    '''tab分行'''
+    rr = []
+    for l in ucc:
+        ll = l.split(u'　')
+        for nl in ll:
+            rr.append(nl)
+    return rr;
+    
+    
+def split_white(ucc):
+    '''空格分行'''
+    rr = []
+    for l in ucc:
+        ll = l.split(u' ')
+        for nl in ll:
+            rr.append(nl)
+    return rr;
     
 def split_with_juhao(ucc):
     '''句号换行'''
@@ -65,7 +84,11 @@ def remove_kuahao(ucc):
     '''括号内的删除'''
     rr = []
     for l in ucc:
-        rr.append(re.sub(u'\uff08.*\uff09', u'', l))
+        t = re.sub(u'\uff08.*\uff09', u'', l)
+        t = re.sub(u'\(.*\)', u'', t)
+        t = re.sub(u'\[.*\]', u'', t)
+
+        rr.append(t)
     
     return rr   
 
@@ -102,10 +125,15 @@ def gen(fn, fno):
         ucc = [c.decode("utf-8") for c in cc]
         
         #unicode start
-        ucc = remove_short(ucc)
-        ucc = remove_white(ucc)
         
         ucc = remove_kuahao(ucc)
+        ucc = split_tab(ucc)
+        ucc = split_white(ucc)
+        
+        ucc = remove_kuahao(ucc)
+
+        ucc = remove_short(ucc)
+        ucc = remove_white(ucc)
         
         ucc = split_with_juhao(ucc)
         ucc = remove_short(ucc)
@@ -119,8 +147,6 @@ def gen(fn, fno):
         ucc = remove_short(ucc)
         ucc = split_long(ucc)
 
-        
-        
         
         #unicode end
         cc = [c.encode("utf-8") for c in ucc]
