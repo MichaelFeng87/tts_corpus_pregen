@@ -2,17 +2,11 @@
 # -*- coding: utf-8 -*-
 
 '''
-语音识别中，我们没有足够多的真人录音语料库，因而，我尝试使用在线语音合成（有12个发音人，随机分布），来制造 corpus。
-从网上找来的文章，因为有长短不一的句子，各种混乱的符号，无法直接使用。我们需要每行30个字左右的一系列句子。
-本脚本就是用来处理text 到 list of sentence的。
-
-chenbingfeng 2016年06月02日
-
-	1）空行删除，长度少于10个字的行删除。
-	2）段内有空格的，删除。
-	3）句号分行。
-	4）分号分行。
-    5）超过30字的长句，逗号分行。
+紧接着 tr.py。
+tn.py 负责对 句子 
+1，分词
+2，标记拼音（假）
+3，标记音素
 '''
 
 import sys,re
@@ -72,44 +66,25 @@ def split_with_juhao(ucc):
     return rr
 
 def replace_things(ucc):
-    '''所有替换工作'''
+    '''分号改成逗号'''
     rr = []
-    tb = [[u'；',u'，'], [u'；',u'，'], \
-                        [u'：',u'，'], \
-                        [u'1',u'一'], \
-                        [u'2',u'二'], \
-                        [u'3',u'三'], \
-                        [u'4',u'四'], \
-                        [u'5',u'五'], \
-                        [u'6',u'六'], \
-                        [u'7',u'七'], \
-                        [u'8',u'八'], \
-                        [u'9',u'九'], \
-                        [u'0',u'零'], \
-                        
-                        ]
-                        
     for l in ucc:
-        t = l
-        for p in tb:
-            t = t.replace(p[0], p[1])
+        t = l.replace(u'；', u'，')
+        t = t.replace(u'：', u'，')
         rr.append(t)
     return rr
-
     
-def remove_things(ucc):
-    '''（）()[] 英文字母'''
+def remove_kuahao(ucc):
+    '''括号内的删除'''
     rr = []
     for l in ucc:
-        t = l
-        t = re.sub(u'\uff08.*\uff09', u'', t)
+        t = re.sub(u'\uff08.*\uff09', u'', l)
         t = re.sub(u'\(.*\)', u'', t)
         t = re.sub(u'\[.*\]', u'', t)
-        t,n = re.subn(u'([a-z]|[A-Z])*', u'', t)
+
         rr.append(t)
     
-    return rr
-    
+    return rr   
 
 def split_long(ucc):
     '''太长的分'''
@@ -145,11 +120,11 @@ def gen(fn, fno):
         
         #unicode start
         
-        ucc = remove_things(ucc)
+        ucc = remove_kuahao(ucc)
         ucc = split_tab(ucc)
         ucc = split_white(ucc)
         
-        ucc = remove_things(ucc)
+        ucc = remove_kuahao(ucc)
 
         ucc = remove_short(ucc)
         ucc = remove_white(ucc)
@@ -185,7 +160,7 @@ def gen(fn, fno):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print "usage: tr.sh fn fno"
+        print "usage: tr.sh fn prefix"
         sys.exit()
         
     print sys.argv[1], sys.argv[2]
