@@ -18,15 +18,42 @@ chenbingfeng 2016年06月02日
 
 import sys
 import re
+import jieba
 
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
+def replace_fuhao(l):
+    '''所有符号转换成空格'''
+    a= re.findall(u"([\u4e00-\u9fff]+)", l)
+    return " ".join(a)
+
+dict = {}
 
 
-    
+def load_lexicon_dict():
+	with open('lexicon.txt', 'r') as fp:
+		cc = fp.readlines()
+		cc = [c.decode('utf-8') for c in cc]
+		for c in cc :
+			k = c.find(' ')
+			k, v= c[0:k], c[k+1:-1] #-1去掉换行
+			dict[k] = v
+	
+def phoneme(w):
+	'''给一个词寻找 phoneme'''
+	if dict.has_key(w):
+		return dict[w].strip()
+	r = u''
+	for c in w:
+		r = r + dict[c] + ' '
+	
+	return r.strip()
 
 if __name__ == "__main__":
-    print re.sub(u'\uff08.*\uff09', u'九', u'万能人寿保险（括号内）括号外')
-    
+	load_lexicon_dict()
+	print phoneme(u'宇宙')
+	print phoneme(u'少年绿茶表')
+
+

@@ -13,6 +13,9 @@ chenbingfeng 2016年06月02日
 	3）句号分行。
 	4）分号分行。
     5）超过30字的长句，逗号分行。
+    
+    
+    超出 lexicon 范围的字被删除
 '''
 
 import sys,re
@@ -21,6 +24,33 @@ import sys,re
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
+
+dict = {}
+
+def load_lexicon_dict():
+	with open('lexicon.txt', 'r') as fp:
+		cc = fp.readlines()
+		cc = [c.decode('utf-8') for c in cc]
+		for c in cc :
+			k = c.find(' ')
+			k, v= c[0:k], c[k+1:-1] #-1去掉换行
+			dict[k] = v
+            
+def lexicon_ok(w):
+    if re.match(u"([\u4e00-\u9fff]+)", w):#是中文字
+        return dict.has_key(w)
+    else:
+        return True
+
+def remove_lexicon_fail(ucc):
+    rr = []
+    for l in ucc:
+        nl = u''
+        for w in l:
+            if lexicon_ok(w):
+                nl = nl + w
+        rr.append(nl.strip())
+    return rr
 
 def remove_short(ucc):
     rr = []
@@ -159,6 +189,7 @@ def gen(fn, fno):
         
         ucc = replace_things(ucc)
         
+        ucc = remove_lexicon_fail(ucc)
         
         ucc = split_long(ucc)
         ucc = remove_short(ucc)
@@ -189,5 +220,6 @@ if __name__ == "__main__":
         sys.exit()
         
     print sys.argv[1], sys.argv[2]
-        
+    
+    load_lexicon_dict()
     gen(sys.argv[1], sys.argv[2])
