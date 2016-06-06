@@ -16,6 +16,8 @@ chenbingfeng 2016年06月02日
     
     
     超出 lexicon 范围的字被删除
+
+限制在0-499句
 '''
 
 import sys,re
@@ -205,11 +207,15 @@ def gen(fn, fno):
         for l in cc:
             print l
         
-        print 'Total=%d'%len(cc)
+        print 'Total=%d  (out of 500 will deleted)'%len(cc)
         
+        cnt = 0
         with open(fno, 'w') as fpo:
             for l in cc:
+                if cnt > 499:
+                    break
                 fpo.write(l+'\n')
+                cnt = cnt + 1
             
         
     

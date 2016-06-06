@@ -8,6 +8,8 @@ tn.py 负责对 句子
 2，标记拼音（假）
 3，标记音素
 
+限制0-499 余下的丢弃
+
 TODO 分词的粒度可能需要更小  社会保险-》社会，保险
 '''
 
@@ -34,7 +36,6 @@ def fenci(ucc):
         nl = ' '.join(ww)
         
         rr.append(nl)
-        rr.append(mark_phoneme(nl))
         
     return rr
 
@@ -69,7 +70,8 @@ def mark_phoneme(l):
     return r.strip()
 
 
-def gen(fn, fno):
+
+def gen(fn, prefix):
     with open(fn, 'r') as fp:
         cc = fp.readlines()
         
@@ -78,19 +80,29 @@ def gen(fn, fno):
         #unicode start
         
         ucc = fenci(ucc)
+        fucc = [mark_phoneme(c) for c in ucc]
+        
 
         #unicode end
         cc = [c.encode("utf-8") for c in ucc]
+        fcc = [c.encode("utf-8") for c in fucc]
         
         
-        for l in cc:
-            print l
+        for c, fc in zip(cc, fcc):
+            print c,fc
         
         print 'Total=%d'%len(cc)
         
-        with open(fno, 'w') as fpo:
-            for l in cc:
-                fpo.write(l+'\n')
+        cnt = 0
+        for c,fc in zip(cc,fcc):
+            if cnt > 499:
+                break
+            with open(prefix + "_" + str(cnt) + ".trn", "w") as fpo:
+                fpo.write(c+"\n")
+                fpo.write(fc+"\n")
+                fpo.write(fc+"\n")
+            cnt = cnt + 1
+
             
         
     
