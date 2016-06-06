@@ -2514,7 +2514,6 @@ SIL sil
 亮晶晶 l iang4 j ing1 j ing1
 亮相 l iang4 x iang4
 亲 q in1
-亲 q ing4
 亲临 q in1 l in2
 亲事 q in1 sh ix4
 亲事 q in1 sh ix5
@@ -2666,7 +2665,6 @@ SIL sil
 亿 ii i4
 亿万 ii i4 uu uan4
 什 sh en2
-什 sh ix2
 什么 sh en2 m e5
 什么的 sh en2 m e5 d e5
 什物 sh ix2 uu u4
@@ -2934,7 +2932,6 @@ SIL sil
 价目 j ia4 m u4
 价码 j ia4 m a3
 价钱 j ia4 q ian2
-任 r en2
 任 r en4
 任人唯亲 r en4 r en2 uu ui2 q in1
 任何 r en4 h e2
@@ -6085,7 +6082,6 @@ SIL sil
 刃 r en4
 刃具 r en4 j v4
 分 f en1
-分 f en4
 分不开 f en1 b u4 k ai1
 分不清楚 f en1 b u4 q ing1 ch u3
 分为 f en1 uu ui2
@@ -6199,7 +6195,6 @@ SIL sil
 分页 f en1 ii ie4
 分馏 f en1 l iu2
 切 q ie1
-切 q ie4
 切中 q ie4 zh ong4
 切切 q ie1 q ie5
 切削 q ie1 x iao1
@@ -6562,7 +6557,6 @@ SIL sil
 剃头 t i4 t ou2
 剃度 t i4 d u4
 削 x iao1
-削 x ve1
 削减 x ve1 j ian3
 削发 x ve1 f a4
 削平 x iao1 p ing2
@@ -6992,7 +6986,6 @@ SIL sil
 励 l i4
 励精图治 l i4 j ing1 t u2 zh ix4
 劲 j in4
-劲 j ing4
 劲头 j in4 t ou2
 劲敌 j ing4 d i2
 劲旅 j ing4 l v3
@@ -7063,7 +7056,6 @@ SIL sil
 勋爵 x vn1 j ve2
 勋章 x vn1 zh ang1
 勐 m eng3
-勒 l e4
 勒 l ei1
 勒令 l e4 l ing4
 勒索 l e4 s uo3
@@ -8289,7 +8281,6 @@ SIL sil
 反馈 f an3 k ui4
 反驳 f an3 b o2
 发 f a1
-发 f a4
 发亮 f a1 l iang4
 发人深省 f a1 r en2 sh en1 x ing3
 发令枪 f a1 l ing4 q iang1
@@ -8939,9 +8930,7 @@ SIL sil
 叽咕 j i1 g u5
 叽里呱啦 j i1 l i5 g ua1 l a1
 叽里咕噜 j i1 l i5 g u1 l u1
-吁 vv v1
 吁 vv v4
-吁 x v1
 吁吁 x v1 x v1
 吁吁 x v1 x v5
 吃 ch ix1
@@ -9821,9 +9810,7 @@ SIL sil
 咸鱼 x ian2 vv v2
 咻 x iu1
 咻咻 x iu1 x iu1
-咽 ii ian1
 咽 ii ian4
-咽 ii ie4
 咽喉 ii ian1 h ou2
 咽气 ii ian4 q i4
 咿 ii i1
@@ -11031,7 +11018,6 @@ SIL sil
 圮 p i3
 圯 ii i2
 地 d e5
-地 d i4
 地上 d i4 sh ang4
 地下 d i4 x ia4
 地下室 d i4 x ia4 sh ix4
@@ -11480,7 +11466,6 @@ SIL sil
 堞 d ie2
 堠 h ou4
 堡 b ao3
-堡 p u4
 堡垒 b ao2 l ei3
 堡子 b u3 z iy5
 堡子 p u4 z iy5
@@ -11711,7 +11696,6 @@ SIL sil
 声音 sh eng1 ii in1
 声韵 sh eng1 vv vn4
 壳 k e2
-壳 q iao4
 壳子 k e2 z iy5
 壶 h u2
 壹 ii i1
@@ -12064,7 +12048,6 @@ SIL sil
 夤 ii in2
 夥 h uo3
 大 d a4
-大 d ai4
 大丈夫 d a4 zh ang4 f u5
 大不了 d a4 b u4 l iao3
 大专 d a4 zh uan1
@@ -12793,7 +12776,6 @@ SIL sil
 夸父追日 k ua1 f u4 zh ui1 r iz4
 夸耀 k ua1 ii iao4
 夸赞 k ua1 z an4
-夹 j ia1
 夹 j ia2
 夹克 j ia2 k e4
 夹克衫 j ia1 k e4 sh an1
@@ -12895,7 +12877,6 @@ SIL sil
 契机 q i4 j i1
 契约 q i4 vv ve1
 奔 b en1
-奔 b en4
 奔丧 b en1 s ang1
 奔向 b en1 x iang4
 奔命 b en4 m ing4
@@ -14799,7 +14780,6 @@ SIL sil
 射门 sh e4 m en2
 射阳 sh e4 ii iang2
 将 j iang1
-将 j iang4
 将乐 j iang1 l e4
 将令 j iang4 l ing4
 将信将疑 j iang1 x in4 j iang1 ii i2
@@ -15961,8 +15941,6 @@ SIL sil
 帔 p ei4
 帕 p a4
 帖 t ie1
-帖 t ie3
-帖 t ie4
 帖子 t ie3 z iy5
 帘 l ian2
 帘子 l ian2 z iy5
@@ -16497,7 +16475,6 @@ SIL sil
 库恩 k u4 ee en1
 库房 k u4 f ang2
 库藏 k u4 c ang2
-应 ii ing1
 应 ii ing4
 应付 ii ing1 f u4
 应付 ii ing4 f u4
@@ -17136,7 +17113,6 @@ SIL sil
 归降 g ui1 x iang2
 归顺 g ui1 sh un4
 当 d ang1
-当 d ang4
 当下 d ang1 x ia4
 当中 d ang1 zh ong1
 当之无愧 d ang1 zh ix1 uu u2 k ui4
@@ -20335,7 +20311,6 @@ SIL sil
 挡驾 d ang3 j ia4
 挢 j iao3
 挣 zh eng1
-挣 zh eng4
 挣扎 zh eng1 zh a2
 挣脱 zh eng1 t uo1
 挣脱 zh eng4 t uo1
@@ -20357,7 +20332,6 @@ SIL sil
 挥金如土 h ui1 j in1 r u2 t u3
 挥霍 h ui1 h uo4
 挨 aa ai1
-挨 aa ai2
 挨个 aa ai1 g e4
 挨个儿 aa ai1 g e4 ee er5
 挨冻 aa ai1 d ong4
@@ -21110,7 +21084,6 @@ SIL sil
 撂荒 l iao4 h uang1
 撄 ii ing1
 撅 j ve1
-撇 p ie1
 撇 p ie3
 撇下 p ie1 x ia4
 撇嘴 p ie2 z ui3
@@ -21237,7 +21210,6 @@ SIL sil
 攀谈 p an1 t an2
 攀附 p an1 f u4
 攉 h uo1
-攒 c uan2
 攒 z an3
 攒钱 z an3 q ian2
 攘 r ang3
@@ -21578,7 +21550,6 @@ SIL sil
 敖 aa ao2
 敖包 aa ao2 b ao1
 教 j iao1
-教 j iao4
 教主 j iao4 zh u3
 教义 j iao4 ii i4
 教书 j iao1 sh u1
@@ -22822,7 +22793,6 @@ SIL sil
 显赫 x ian3 h e4
 显露 x ian3 l u4
 晁 ch ao2
-晃 h uang3
 晃 h uang4
 晃动 h uang4 d ong4
 晃悠 h uang4 ii iu5
@@ -23095,7 +23065,6 @@ SIL sil
 曦 x i1
 曩 n ang3
 曰 vv ve1
-曲 q v1
 曲 q v3
 曲别针 q v1 b ie2 zh en1
 曲剧 q v3 j v4
@@ -23132,7 +23101,6 @@ SIL sil
 曲高和寡 q v3 g ao1 h e4 g ua3
 曳 ii ie4
 更 g eng1
-更 g eng4
 更为 g eng4 uu ui2
 更加 g eng4 j ia1
 更动 g eng1 d ong4
@@ -23596,7 +23564,6 @@ SIL sil
 朱红 zh u1 h ong2
 朱门 zh u1 m en2
 朱雀 zh u1 q ve4
-朴 p iao2
 朴 p u3
 朴实 p u3 sh ix2
 朴树 p iao2 sh u4
@@ -23736,7 +23703,6 @@ SIL sil
 权门 q van2 m en2
 权限 q van2 x ian4
 杆 g an1
-杆 g an3
 杆子 g an1 z iy5
 杆菌 g an3 j vn1
 杈 ch a4
@@ -24911,7 +24877,6 @@ SIL sil
 模量 m o2 l iang4
 樨 x i1
 横 h eng2
-横 h eng4
 横亘 h eng2 g en4
 横冲直撞 h eng2 ch ong1 zh ix2 zh uang4
 横县 h eng2 x ian4
@@ -26122,7 +26087,6 @@ SIL sil
 汔 q i4
 汕 sh an4
 汕头 sh an4 t ou2
-汗 h an2
 汗 h an4
 汗孔 h an4 k ong3
 汗斑 h an4 b an1
@@ -27083,7 +27047,6 @@ SIL sil
 测量学 c e4 l iang2 x ve2
 测验 c e4 ii ian4
 浍 k uai4
-济 j i3
 济 j i4
 济南 j i3 n an2
 济宁 j i3 n ing2
@@ -27601,7 +27564,6 @@ SIL sil
 淳厚 ch un2 h ou4
 淳安 ch un2 aa an1
 淳朴 ch un2 p u3
-混 h un2
 混 h un4
 混一 h un4 ii i1
 混世魔王 h un4 sh ix4 m o2 uu uang2
@@ -28705,7 +28667,6 @@ SIL sil
 烘焙 h ong1 b ei4
 烘箱 h ong1 x iang1
 烙 l ao4
-烙 l uo4
 烙印 l ao4 ii in4
 烙铁 l ao4 t ie3
 烙饼 l ao4 b ing3
@@ -32949,7 +32910,6 @@ SIL sil
 秋色 q iu1 s e4
 秋风 q iu1 f eng1
 秋高气爽 q iu1 g ao1 q i4 sh uang3
-种 zh ong3
 种 zh ong4
 种仁 zh ong3 r en2
 种养 zh ong4 ii iang3
@@ -34286,7 +34246,6 @@ SIL sil
 紫貂 z iy3 d iao1
 紫金 z iy3 j in1
 紫铜 z iy3 t ong2
-累 l ei3
 累 l ei4
 累人 l ei4 r en2
 累加 l ei3 j ia1
@@ -34436,7 +34395,6 @@ SIL sil
 红鱼 h ong2 vv v2
 红麻 h ong2 m a2
 纣 zh ou4
-纤 q ian4
 纤 x ian1
 纤夫 q ian4 f u1
 纤小 x ian1 x iao3
@@ -34808,7 +34766,6 @@ SIL sil
 绒花 r ong2 h ua1
 绒衣 r ong2 ii i1
 绒裤 r ong2 k u4
-结 j ie1
 结 j ie2
 结业 j ie2 ii ie4
 结义 j ie2 ii i4
@@ -35495,7 +35452,6 @@ SIL sil
 翔 x iang2
 翔实 x iang2 sh ix2
 翕 x i1
-翘 q iao2
 翘 q iao4
 翘楚 q iao2 ch u3
 翘楚 q iao4 ch u3
@@ -37138,7 +37094,6 @@ SIL sil
 艰难 j ian1 n an2
 艰难险阻 j ian1 n an2 x ian2 z u3
 色 s e4
-色 sh ai3
 色光 s e4 g uang1
 色子 sh ai3 z iy5
 色差 s e4 ch a1
@@ -38451,7 +38406,6 @@ SIL sil
 薹 t ai2
 藁 g ao3
 藉 j i2
-藉 j ie4
 藏 c ang2
 藏书 c ang2 sh u1
 藏匿 c ang2 n i4
@@ -38911,7 +38865,6 @@ SIL sil
 蠖 h uo4
 蠛 m ie4
 蠡 l i2
-蠡 l i3
 蠢 ch un3
 蠢人 ch un3 r en2
 蠢材 ch un3 c ai2
@@ -38924,7 +38877,6 @@ SIL sil
 蠹 d u4
 蠹虫 d u4 ch ong2
 蠼 q v2
-血 x ie3
 血 x ve4
 血书 x ve4 sh u1
 血亏 x ie3 k ui1
@@ -39050,7 +39002,7 @@ SIL sil
 血防 x ve4 f ang2
 衄 n v4
 衅 x in4
-行 h ang2
+行 h ing2
 行不通 x ing2 b u4 t ong1
 行业 h ang2 ii ie4
 行东 x ing2 d ong1
@@ -39746,7 +39698,6 @@ SIL sil
 觐 j in4
 觑 q v1
 角 j iao3
-角 j ve2
 角力 j iao3 l i4
 角力 j ve2 l i4
 角动量 j iao3 d ong4 l iang4
@@ -39769,8 +39720,6 @@ SIL sil
 觜 z ui3
 觞 sh ang1
 解 j ie3
-解 j ie4
-解 x ie4
 解乏 j ie3 f a2
 解体 j ie2 t i3
 解决 j ie3 j ve2
@@ -40754,7 +40703,6 @@ SIL sil
 谷物 g u3 uu u4
 谷草 g u2 c ao3
 谷雨 g u2 vv v3
-豁 h uo1
 豁 h uo4
 豁免 h uo4 m ian3
 豁出去 h uo1 ch u1 q v4
@@ -41901,7 +41849,6 @@ SIL sil
 轩然大波 x van1 r an2 d a4 b o1
 轫 r en4
 转 zh uan3
-转 zh uan4
 转业 zh uan3 ii ie4
 转为 zh uan3 uu ui2
 转义 zh uan3 ii i4
@@ -43118,7 +43065,6 @@ SIL sil
 逢迎 f eng2 ii ing2
 逦 l i3
 逭 h uan4
-逮 d ai3
 逮 d ai4
 逮捕 d ai2 b u3
 逮捕 d ai4 b u3
@@ -44154,7 +44100,6 @@ SIL sil
 钹 b o2
 钺 vv ve4
 钻 z uan1
-钻 z uan4
 钻井 z uan4 j ing3
 钻具 z uan4 j v4
 钻头 z uan4 t ou2
@@ -45196,7 +45141,6 @@ SIL sil
 阼 z uo4
 阽 d ian4
 阿 aa a1
-阿 ee e1
 阿克拉 aa a1 k e4 l a1
 阿公 aa a1 g ong1
 阿司匹林 aa a1 s iy1 p i1 l in2
@@ -45585,8 +45529,6 @@ SIL sil
 难道 n an2 d ao4
 难闻 n an2 uu un2
 难题 n an2 t i2
-雀 q iao1
-雀 q iao3
 雀 q ve4
 雀子 q iao1 z iy5
 雀斑 q ve4 b an1
@@ -47152,7 +47094,6 @@ SIL sil
 骤然 zh ou4 r an2
 骥 j i4
 骧 x iang1
-骨 g u1
 骨 g u3
 骨刺 g u3 c iy4
 骨力 g u3 l i4
@@ -47500,7 +47441,6 @@ SIL sil
 鲚 j i4
 鲛 j iao1
 鲜 x ian1
-鲜 x ian3
 鲜亮 x ian1 l iang4
 鲜亮 x ian1 l iang5
 鲜卑 x ian1 b ei1
