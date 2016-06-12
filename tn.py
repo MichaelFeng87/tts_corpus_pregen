@@ -97,7 +97,7 @@ def gen(fn, prefix):
         for c,fc in zip(cc,fcc):
             if cnt > 499:
                 break
-            with open(prefix + "_" + str(cnt) + ".trn", "w") as fpo:
+            with open(prefix + "_" + ('%03d')%(cnt) + ".trn", "w") as fpo:
                 fpo.write(c+"\n")
                 fpo.write(fc+"\n")
                 fpo.write(fc+"\n")
